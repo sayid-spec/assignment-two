@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+:root {
+  --dark-01: rgba(19, 19, 24, 0.7);
+  --dark-02: #131318;
+  --dark-03: #424247;
+  --primary-clr: #ff5400;
+
+  /* font-size */
+  --fs-01: 16px;
+  --fs-02: 40px;
+
+  /* font weights */
+  --fw-01: 400;
+  --fw-02: 800;
+}
+
+img {
+  width: 100%;
+}
+
+/* shared styles  */
+
+/* header  navbar */
+
+header {
+  margin: 52px auto;
+  /* border: 2px solid blue; */
+  max-width: 1190px;
+  padding: 5px;
+}
+nav .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+nav .logo-container img {
+  width: 50px;
+}
+nav .logo-container p {
+  flex-shrink: 0;
+  font-size: 36px;
+  font-weight: var(--fw-02);
+  color: var(--dark-02, #131318);
+}
+nav .logo-container p > span {
+  color: var(--primary-clr, #ff5400);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  list-style-type: none;
+
+  color: var(--Dark-02, #424247);
+  text-align: center;
+
+  font-size: 18px;
+
+  font-weight: 400;
+}
+#home a {
+  color: var(--primary-clr, #ff5400);
+}
+nav ul a {
+  text-decoration: none;
+}
+.bars {
+  display: none;
+}

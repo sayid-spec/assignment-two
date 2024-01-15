@@ -1,0 +1,26 @@
+/* small devices */
+
+@media screen and (max-width: 600px) {
+  /* header section */
+  header {
+    max-width: 335px;
+    padding: 5px;
+  }
+
+  nav .logo-container img {
+    width: 28px;
+  }
+  nav .logo-container p {
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .menubar {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .bars i {
+    width: 24px;
+  }
+}
