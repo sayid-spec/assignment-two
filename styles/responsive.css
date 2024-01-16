@@ -166,4 +166,70 @@
     font-size: 20px;
     font-weight: 800;
   }
+
+  /* travelarsay section */
+
+  .travelarsay {
+    max-width: 335px;
+    padding: 20px;
+  }
+
+  .travelarsay .section-title {
+    font-size: 26px;
+  }
+  .travelarsay .section-description {
+    max-width: 250px;
+    font-size: 15px;
+  }
+  .travelarsay .peoples-cards {
+    gap: 40px;
+
+    flex-direction: column;
+  }
+  .travelarsay .peoples-cards .card {
+    flex-direction: column;
+  }
+  .travelarsay .peoples-cards .card .card-content {
+    text-align: center;
+  }
+
+  .travelarsay .peoples-cards .card img {
+    width: 80px;
+  }
+
+  /* footer */
+
+  footer {
+    gap: 16px;
+
+    min-height: 300px;
+  }
+
+  footer .footer-title img {
+    width: 28px;
+  }
+  footer .footer-title p {
+    font-size: 21px;
+  }
+
+  footer .section-description {
+    max-width: 290px;
+  }
+  footer .social-links {
+    display: inline-flex;
+    gap: 20px;
+    margin: 10px auto 30px;
+  }
+  footer .social-links i {
+    font-size: 20px;
+  }
+  footer .line {
+    height: 2px;
+    background: rgba(19, 19, 24, 0.1);
+    width: 335px;
+    margin: 5px auto 40px;
+  }
+  footer > .section-description {
+    margin-bottom: 50px;
+  }
 }

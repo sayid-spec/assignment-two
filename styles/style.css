@@ -449,3 +449,98 @@ button {
   font-size: 32px;
   font-weight: 800;
 }
+
+/* travelarsay section */
+
+.travelarsay {
+  max-width: 1170px;
+  margin: 0px auto 100px;
+  text-align: center;
+}
+
+.travelarsay .section-title {
+  font-size: 500;
+  margin-bottom: 20px;
+}
+.travelarsay .section-description {
+  max-width: 600px;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 28px;
+
+  margin: 0px auto 50px;
+}
+.travelarsay .peoples-cards {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  justify-content: center;
+}
+.travelarsay .peoples-cards .card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-direction: row;
+  border: 1px solid #ff5400;
+}
+.travelarsay .peoples-cards .card .card-content {
+  text-align: left;
+}
+.peoples-cards .card .card-content .stars {
+  margin: 15px 0px 25px;
+  color: goldenrod;
+}
+.travelarsay .peoples-cards .card img {
+  width: 125px;
+}
+
+/* footer  */
+
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  min-height: 502px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+footer .footer-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-title img {
+  width: 40px;
+}
+footer .footer-title p {
+  display: inline-flex;
+  gap: 5px;
+  font-size: 32px;
+  color: var(--dark-02);
+  font-weight: 800;
+}
+footer .footer-title p span {
+  color: var(--primary-clr);
+}
+footer .section-description {
+  max-width: 750px;
+  text-align: center;
+}
+footer .social-links {
+  display: inline-flex;
+  gap: 24px;
+  margin: 16px auto 50px;
+}
+footer .social-links i {
+  color: black;
+  font-size: 30px;
+}
+footer .line {
+  height: 2px;
+  background: rgba(19, 19, 24, 0.1);
+  width: 870px;
+  margin: 5px auto 50px;
+}
