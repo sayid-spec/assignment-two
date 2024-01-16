@@ -1,6 +1,14 @@
 /* small devices */
 
 @media screen and (max-width: 600px) {
+  /* shared styles */
+  .section-title {
+    font-size: 20px;
+  }
+  .section-description {
+    font-size: 14px;
+    line-height: 24px;
+  }
   /* header section */
   header {
     max-width: 335px;
@@ -23,4 +31,94 @@
   .bars i {
     width: 24px;
   }
+
+  /* banner */
+  .banner {
+    max-width: 335px;
+    padding: 32px 10px 45px;
+  }
+  .banner-title {
+    font-size: 22px;
+  }
+  .banenr-description {
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+  .banner .inputs {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    max-width: 250px;
+  }
+
+  /* popular tours */
+  .popular-tours {
+    max-width: 335px;
+    padding: 5px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .popular-tours .tour-content {
+    width: 100%;
+    text-align: left;
+    padding-left: 4px;
+  }
+
+  /* destination */
+  .destination {
+    max-width: 335px;
+    gap: 30px;
+  }
+  .content {
+    padding: 0px;
+    gap: 18px;
+  }
+
+  .desti-img-container {
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(7, 175px);
+
+    grid-template-areas:
+      "item1" "item2" "item3" "item4" "item5" "item6"
+      "item7";
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6,
+  .item7 {
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* why us */
+
+  .whyus {
+    max-width: 335px;
+    gap: 25px;
+
+    padding: 10px;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 290px);
+
+    grid-auto-columns: 1fr;
+    gap: 20px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "card1" "card2"
+      "card3";
+  }
+
+  .card .section-title {
+    margin: 32px 0px 16px;
+  }
+
+  /* newsletter */
 }
