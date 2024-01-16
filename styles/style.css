@@ -27,6 +27,28 @@ img {
 }
 
 /* shared styles  */
+.section-title {
+  color: var(--dark-02, #131318);
+
+  font-size: 40px;
+
+  font-weight: 800;
+}
+.section-description {
+  color: rgba(19, 19, 24, 0.7);
+
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.primary-btn {
+  background-color: var(--primary-clr);
+  border: 0;
+  outline: 0;
+  padding: 16px 20px;
+  color: #fff;
+}
 
 /* header  navbar */
 
@@ -79,4 +101,78 @@ nav ul a {
 }
 .bars {
   display: none;
+}
+
+/* main */
+
+.banner {
+  max-width: 1170px;
+  padding: 5px;
+  margin: 0px auto;
+  text-align: center;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-size: cover;
+
+  border-radius: 8px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  color: #fff;
+}
+.banner-content {
+  display: flex;
+}
+.banner-title {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.banenr-description {
+  font-size: 16px;
+
+  padding: 0px 245px;
+
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.banner .inputs {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  gap: 25px;
+  padding: 16px;
+}
+
+.banner .inputs input,
+.select,
+button {
+  padding: 16px;
+  width: 175px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.banner .inputs .select {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .inputs .select i {
+  width: 24px;
+  color: var(--dark-01);
+}
+.banner .inputs button i {
+  width: 24px;
+  margin-right: 10px;
 }
