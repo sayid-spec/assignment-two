@@ -372,20 +372,22 @@ button {
   max-width: 1170px;
   padding: 10px;
   margin: 0px auto 100px;
-  border: 2px solid blue;
 
   display: flex;
-  gap: 25px;
+  align-items: center;
+  gap: 20px;
 }
 
 .newsletter .newsform {
   padding: 40px;
+  border: 1px solid #ff5400;
+  border-radius: 16px;
 }
 .newsletter .section-title {
   font-size: 24px;
 }
 .newsletter .section-description {
-  margin: 16px 0px 25px;
+  margin: 16px 0px 24px;
 }
 
 .newsletter .line {
@@ -397,7 +399,7 @@ button {
 .newsletter .newsform .subscribe {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 .newsletter .newsform .subscribe input {
   appearance: none;
@@ -418,4 +420,32 @@ button {
   width: 100%;
   font-weight: 800;
   font-size: 20px;
+}
+.newsletter .newsletter-img {
+  position: relative;
+}
+
+.newsletter .newsletter-img .sales {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  color: #fff;
+
+  border-radius: 16px;
+  background: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 12px;
+  bottom: 63px;
+}
+.newsletter .newsletter-img .sales p {
+  font-size: 24px;
+  font-weight: 400;
+}
+.newsletter .newsletter-img .sales p:nth-of-type(2) {
+  font-size: 32px;
+  font-weight: 800;
 }

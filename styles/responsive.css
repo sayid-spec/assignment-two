@@ -121,4 +121,49 @@
   }
 
   /* newsletter */
+
+  /* Newsletter */
+  .newsletter {
+    max-width: 335px;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+  .newsletter .newsform {
+    padding: 20px;
+  }
+
+  .newsletter .section-title {
+    font-size: 20px;
+  }
+  .newsletter .section-description {
+    margin: 14px 0px 20px;
+  }
+
+  .newsletter .line {
+    margin-bottom: 20px;
+    width: 280px;
+  }
+
+  .newsletter .newsletter-img img {
+    object-fit: cover;
+    min-height: 300px;
+    border-radius: 16px;
+    width: 100%;
+  }
+
+  .newsletter .newsletter-img .sales {
+    width: 215px;
+    height: 80px;
+    right: 8px;
+    bottom: 37px;
+  }
+  .newsletter .newsletter-img .sales p {
+    font-size: 15;
+    font-weight: 400;
+  }
+  .newsletter .newsletter-img .sales p:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: 800;
+  }
 }
