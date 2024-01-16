@@ -115,7 +115,7 @@ nav ul a {
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
-    url("/Images/Group\ 13\ \(1\)\ \(1\).png");
+    url("/Images/banner.png");
   background-size: cover;
   background-position: center;
 
@@ -276,37 +276,37 @@ button {
 
 .item1 {
   grid-area: item1;
-  background: url(/Images/Rectangle\ 5.png) no-repeat;
+  background: url(/Images/item1.png) no-repeat;
 }
 
 .item2 {
   grid-area: item2;
-  background: url(/Images/Rectangle\ 8.png) no-repeat;
+  background: url(/Images/item2.png) no-repeat;
 }
 
 .item3 {
   grid-area: item3;
-  background: url(/Images/Rectangle\ 6.png) no-repeat;
+  background: url(/Images/item3.png) no-repeat;
 }
 
 .item4 {
   grid-area: item4;
-  background: url(/Images/Rectangle\ 7.png) no-repeat;
+  background: url(/Images/item4.png) no-repeat;
 }
 
 .item5 {
   grid-area: item5;
-  background: url(/Images/Rectangle\ 9.png) no-repeat;
+  background: url(/Images/item5.png) no-repeat;
 }
 
 .item6 {
   grid-area: item6;
-  background: url(/Images/Rectangle\ 11.png) no-repeat;
+  background: url(/Images/item6.png) no-repeat;
 }
 
 .item7 {
   grid-area: item7;
-  background: url(/Images/Rectangle\ 10.png) no-repeat;
+  background: url(/Images/item7.png) no-repeat;
 }
 
 /* whya  chose us */
